@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--primary);
+  width: 100%;
+}
+
+.content {
+  color: var(--on-primary);
+}
+
+.content h4 {
+  color: var(--on-primary);
+  margin-bottom: 1rem;
+}

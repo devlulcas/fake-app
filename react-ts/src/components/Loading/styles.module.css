@@ -1,0 +1,5 @@
+.loading {
+  color: var(--on-primary);
+  font-weight: 800;
+  font-size: 2rem;
+}

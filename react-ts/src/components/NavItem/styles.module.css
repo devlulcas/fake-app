@@ -1,0 +1,8 @@
+.content {
+  padding: 1rem 2rem;
+  font-weight: 800;
+  background-color: var(--on-primary);
+  color: var(--primary);
+  text-align: center;
+}
+
