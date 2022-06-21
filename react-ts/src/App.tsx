@@ -13,11 +13,11 @@ function App() {
       <Routes>
         <Route path="/" element={<DefaultTemplate />}>
           <Route index element={<HomePage />} />
-          <Route path="/cat" element={<CatPage />} />
+          <Route path="/cats" element={<CatPage />} />
 
           <Route path="/user">
-            <Route path="/user/:id" element={<UserPage />} />
-            <Route path="/user/:id/post" element={<PostPage />} />
+            <Route path=":id" element={<UserPage />} />
+            <Route path=":id/:postId" element={<PostPage />} />
           </Route>
         </Route>
       </Routes>

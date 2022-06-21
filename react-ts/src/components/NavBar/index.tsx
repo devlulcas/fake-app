@@ -10,7 +10,7 @@ function NavBar() {
         </li>
 
         <li>
-          <NavItem href="/cats">Início</NavItem>
+          <NavItem href="/cats">Cats</NavItem>
         </li>
       </ul>
     </nav>

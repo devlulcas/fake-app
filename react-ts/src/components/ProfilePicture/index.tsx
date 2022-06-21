@@ -4,14 +4,19 @@ import { IconType } from "../../types/IconType";
 import styles from "./styles.module.css";
 
 interface ProfilePictureProps {
-  url: string;
+  userId: number;
   alt: string;
 }
 
-function ProfilePicture({ alt, url }: ProfilePictureProps) {
+function ProfilePicture({ alt, userId }: ProfilePictureProps) {
+  const pictureBaseUrl = import.meta.env.VITE_PICTURE_API;
+
+  // A imagem de perfil do usuário
+  const pictureUrl = `${pictureBaseUrl}/${userId}.svg`;
+
   return (
     <div className={styles.container}>
-      <img src={url} alt={alt} />
+      <img src={pictureUrl} alt={alt} />
     </div>
   );
 }

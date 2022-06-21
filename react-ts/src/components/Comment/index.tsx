@@ -1,17 +1,12 @@
+import { CommentResponse } from "../../types/api/commentResponse.api";
 import styles from "./styles.module.css";
 
-interface CommentProps {
-  title: string;
-  content: string;
-  email: number;
-}
-
-function Comment({ content, title, email }: CommentProps) {
+function Comment({ body, email, name }: CommentResponse) {
   return (
     <article className={styles.container}>
       <p className={styles.email}>{email}</p>
-      <h4 className={styles.title}>{title}</h4>
-      <p>{content}</p>
+      <h4 className={styles.title}>{name}</h4>
+      <p>{body}</p>
     </article>
   );
 }
