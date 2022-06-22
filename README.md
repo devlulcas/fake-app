@@ -5,6 +5,8 @@
 
 # FAKE APP
 
-Esta é uma aplicação utilizada para exemplificar semelhanças entre o React JS (Typescript) com e sem o NextJS. Também serve para demonstrar o uso de hooks personalizados e um pouco sobre a organização de um projeto frontend simples, além de exercitar hooks essenciais como o `useState` e `useEffect`. 
+Esta é uma aplicação utilizada para exemplificar semelhanças entre o React JS (Typescript) com e sem o NextJS. Também serve para demonstrar o uso de hooks personalizados e um pouco sobre a organização de um projeto frontend simples, além de exercitar hooks essenciais como o `useState` e `useEffect`.
 
 Caso encontre algum erro nas aplicações ou perceba uma melhoria, sinta-se livre para abrir um pull request :)
+
+![preview](https://raw.githubusercontent.com/devlulcas/fake-app/main/.github/images/preview.png)
