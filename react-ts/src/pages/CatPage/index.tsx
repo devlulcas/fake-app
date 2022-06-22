@@ -19,7 +19,7 @@ function CatPage(props: CatPageProps) {
     };
 
     getCat();
-  }, [reloadCounter]);
+  }, [reloadCounter, catApi]);
 
   return (
     <div className={styles.container}>
@@ -30,7 +30,7 @@ function CatPage(props: CatPageProps) {
           alt="cat"
         />
       </div>
-      
+
       <div className={styles.controls}>
         <Button onClick={() => setReloadCounter((value) => value + 1)}>
           BUSCAR NOVO GATINHO
