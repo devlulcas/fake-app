@@ -1,0 +1,9 @@
+.container {
+  border: 0.2rem solid var(--primary);
+  border-radius: 50%;
+  width: 7.5rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: var(--on-primary);
+}

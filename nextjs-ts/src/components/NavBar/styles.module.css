@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background: var(--primary);
+  height: fit-content;
+  padding: 2rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
